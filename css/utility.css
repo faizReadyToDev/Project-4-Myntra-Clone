@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+
+.jutified-content-cnt{
+   justify-content: center;
+}
+.jutified-content-spacebtw{
+   justify-content: space-between;
+}
+
+.item-center{
+    align-items: center;
+}
+.container{
+    padding: 0 10vw;
+}
+.item-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 78vw;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+      
+  
+
+

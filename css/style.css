@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.left img{
+    cursor: pointer;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav{
+    position: sticky;
+    height: 75px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 12px;
+}
+
+nav img{
+    height: 43px;
+    width: 75px;
+    padding: 0 12px;
+    background-color: white;
+}
+ul li{
+    list-style: none;
+    padding: 0 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+ul li:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.left span{
+    color: red;
+    font-weight: bolder;
+    position: absolute;
+    left:44.3%;
+    top: 33%;
+    font-size: 10px;
+}
+
+.right>div{
+    padding: 0 12px;
+    font-weight: bolder;
+    
+}
+
+input{
+    width: 20vw;
+    padding: 8px 70px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.card{
+    width: 10vw;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.bag img ,.wishlist img, .profile img{
+    height: 24px;
+    width: 24px;
+}
+.bag ,.wishlist , .profile{
+    flex-direction: column;
+    cursor: pointer;
+}
+.bag:hover ,.wishlist:hover , .profile:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.cardContainer{
+    display: flex;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.card:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.sec1{
+    background-color: rgba(242, 242, 242, 0.537);
+}
+
+
+
+footer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
